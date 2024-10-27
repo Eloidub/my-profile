@@ -1,0 +1,159 @@
+
+body {
+	background-color: #aae1fa;
+	color: rgba(50, 50, 50, 1.0);
+	font-family: 'Noto Serif', serif;
+	font-size: 17px;
+	font-weight: lighter;
+	margin: 0;
+	padding: 0;
+}
+
+#intro p {
+	margin-bottom: 45px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	
+}
+
+
+@media(max-width: 760px) {
+	.container{ 
+	width:600px 
+	}
+}
+@media (max-width: 500px) {
+	.container{ 
+	width: 400px;
+	}
+}
+
+
+
+.box {
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	padding: 40px 20px; 
+	width: 100%;
+	text-align: center; 
+	transition: box-shadow 0.3s ease;
+}
+
+
+.box:hover {
+	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.profile-box {
+	text-align: center;
+	padding: 80px 20px; 
+}
+
+
+.centered-box {
+	padding: 100px 20px; 
+}
+
+#eloi {
+	width: 150px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 50%;
+}
+
+
+.info-box {
+	padding: 40px 20px;
+	text-align: center; 
+}
+
+
+.follow-box {
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.social-links {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+
+.social-links a {
+	font-size: 50px;
+	width: 50px;
+	color: #8EACCD;
+	transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+	color: #384B70;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-weight: 2000;
+	letter-spacing: 2px;
+	font-size: 32px;
+	color: #384B70;
+}
+
+h2 {
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 22px;
+	color: #86D293;
+	margin-bottom: 10px;
+}
+
+
+a {
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	color: #8EACCD;
+	font-weight: 600;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: black;
+}
+
+
+.encadre-lien {
+	display: inline-block; 
+	padding: 10px 20px; 
+	border: 2px solid #8EACCD; 
+	border-radius: 8px; 
+	color: #8EACCD;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.encadre-lien:hover {
+	background-color: #8EACCD; 
+	color: #FFF; 
+	border-color: #8EACCD; 
+}
+
